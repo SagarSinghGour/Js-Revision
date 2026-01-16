@@ -41,7 +41,7 @@ if(a >= b && a >= c){
     console.log("C is big number");
     
 }
-// ..................................  Using Ternary Operator.........................................
+// ..................................  Using Ternary Operator  ...................................................
 
 let largest = a > b ? (a > c ? a : c ) : (b > c ? b : c);
 console.log(largest);

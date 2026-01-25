@@ -29,7 +29,7 @@ let c = 30;
 console.log("largest number is:", Math.max(a, b, c));
 
 
-// .................................. uning with out method usnig the loop if else if.........................................
+// .................................. uning with out method usnig the loop if else if..........................................
 
 if(a >= b && a >= c){
    console.log("a is big number");

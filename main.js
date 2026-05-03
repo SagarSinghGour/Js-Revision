@@ -62,6 +62,10 @@ console.log(res2);
 
 
 // 5 Count vowels and consonants in a string.
+
+
+
+// ..................................  Using vowels , split , join method .........................................
 // 6 Check if a string is a palindrome.
 // 7 Find the factorial of a number using recursion.
 // 8 Print Fibonacci series up to n terms.

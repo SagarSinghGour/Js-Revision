@@ -60,6 +60,31 @@ let res2 = str.split("").reverse().join("");
 console.log(res2);
 
 
+// using loop 
+
+
+let str = "hello";
+let reverse = "";
+for(let i=str.length-1; i>=0; i--){
+    reverse += str[i]
+}
+console.log(reverse);
+
+
+// function with return
+
+function reverseString(str){
+    let reverse = '';
+    for(let i=str.length-1; i>=0; i--){
+        reverse += str[i]
+    }
+    return reverse
+}
+
+let result = reverseString('sagar');
+console.log(result);
+
+
 
 // 5 Count vowels and consonants in a string.
 

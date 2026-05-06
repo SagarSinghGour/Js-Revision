@@ -84,6 +84,46 @@ function reverseString(str){
 let result = reverseString('sagar');
 console.log(result);
 
+// -----------------------------------------------Check if a string is a palindrome..-------------------------------------------
+ 
+// using the loop but reverse loop using this 
+let str = 'madam';
+let reverse = "";
+for(let i=str.length-1; i>=0; i--){
+    reverse += str[i]
+    
+} 
+if(str === reverse){
+        console.log(true);
+        
+    }else {
+        console.log(false);
+        
+    }
+
+// using function 
+
+    function checkPalindrome(str) {
+    let reverse = "";
+
+    for (let i = str.length - 1; i >= 0; i--) {
+        reverse += str[i];
+    }
+
+    return str === reverse;
+}
+
+ let res = checkPalindrome("madam")
+ console.log(res);
+ 
+
+// using function 
+
+let str = "madam"
+let res = str === str.split("").reverse().join("")
+console.log(res);
+
+
 
 
 // 5 Count vowels and consonants in a string.

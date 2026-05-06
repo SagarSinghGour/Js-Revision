@@ -52,7 +52,7 @@ console.log(largest);
 // 4 Reverse a string without using built-in functions.
 
 
-// ..................................  Using reverse , split , join method .........................................
+// ..................................  Using reverse , split , join method ..............................................
 
 let str = "SAGAR";
 

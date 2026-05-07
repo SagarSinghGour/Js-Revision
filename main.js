@@ -123,6 +123,70 @@ let str = "madam"
 let res = str === str.split("").reverse().join("")
 console.log(res);
 
+// Reverse a number (e.g., 123 → 321).
+
+// using the loop formet
+let num = 123 ;
+let num2 = num.toString()
+let reverse = '';
+for(let i=num2.length-1; i>=0; i--){
+    reverse += num2[i]
+}
+console.log(reverse);
+
+// using  function and return
+
+ function checkreverse(num){
+    let num2 = num.toString()
+    let reverse = "";
+    for(let i=num2.length-1; i>=0;  i--){
+        reverse += num2[i]
+    }
+    return reverse
+ }
+ let res = checkreverse(12345)
+ console.log(res);
+
+// using  method
+
+let num = 12345;
+let res = num.toString().split("").reverse().join("");
+console.log(res);
+
+// Find the factorial of a number using recursion.
+
+
+// using the loop formet 
+
+let num =5; 
+let fac =1;
+for(let i=1; i<=num; i++){
+    fac *= i
+}
+console.log(fac);
+
+
+// using the function and return 
+
+function checkfactorial(num){
+    let factorial = 1;
+    for(let i=1; i<=num; i++){
+        factorial *= i
+    }
+    return factorial
+}
+
+let main = checkfactorial(5)
+console.log(main);
+
+
+// using method
+ let num =5 ;
+ let factorial = [... Array(num).keys()].reduce((item, value ) =>item * (value + 1),1)
+ console.log(factorial);
+ 
+ 
+
 
 
 

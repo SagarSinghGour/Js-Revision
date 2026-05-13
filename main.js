@@ -156,6 +156,17 @@ console.log(res);
 // Find the factorial of a number using recursion.
 
 
+// using the factorial with recursion
+function factorial(n){
+if(n === 0 || n === 1){
+    return 1;
+}
+    return n * factorial(n-1)
+}
+let num = 5;
+console.log(factorial(num))
+
+
 // using the loop formet 
 
 let num =5; 

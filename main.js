@@ -201,7 +201,7 @@ console.log(main);
 
 
 
-// 5 Count vowels and consonants in a string.
+// 5 Count vowels and consonants in a string..........
 
 
 
